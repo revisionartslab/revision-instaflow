@@ -24,6 +24,10 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Inter', -apple-system, sans-serif;
             background-color: var(--bg-main);
@@ -133,6 +137,7 @@
         footer {
             text-align: center;
             padding-top: 60px;
+            padding-bottom: 120px;
             border-top: 1px solid var(--border);
             margin-top: 100px;
         }
@@ -172,8 +177,9 @@
 
         <nav>
             <a href="#privacy">Privacy Policy</a>
-            <a href="#terms">Terms of Service</a>
-            <a href="#deletion">Data Deletion</a>
+            <a href="#terms">Terms</a>
+            <a href="#deletion">Deletion Guide</a>
+            <a href="#delete">Data Request</a>
         </nav>
 
         <!-- Privacy Policy Section -->
@@ -223,12 +229,12 @@
                 violating platform rules is strictly prohibited.</p>
         </section>
 
-        <!-- User Data Deletion Section -->
+        <!-- User Data Deletion Instructions (Required for Apps & Websites settings) -->
         <section id="deletion">
-            <h2>User Data Deletion Instructions</h2>
+            <h2>User Data Deletion Instructions (Self-Service)</h2>
             <p>Since the App does not store your personal data on any server, all data processing ceases immediately
                 upon disconnecting the App. If you would like to revoke access or delete the connection to REVISION
-                INSTAFLOW, please follow these steps:</p>
+                INSTAFLOW manually, please follow these steps:</p>
 
             <ul>
                 <li>Log in to your <strong>Facebook account</strong>.</li>
@@ -238,6 +244,20 @@
             </ul>
             <p>Once you complete these steps, the App will no longer have access to your data, and your active local
                 session will be invalidated immediately.</p>
+        </section>
+
+        <!-- Data Deletion Request (Required for Data Deletion Callback URL) -->
+        <section id="delete">
+            <h2>Data Deletion Request</h2>
+            <p>If you wish to request the deletion of any data associated with your use of REVISION INSTAFLOW, please
+                follow the formal request process below:</p>
+            <ul>
+                <li>Send an email to <strong>revisionartslab@gmail.com</strong> with the subject line <strong>"Data
+                        Deletion Request"</strong>.</li>
+                <li>Include your Instagram username associated with the App for identification purposes.</li>
+            </ul>
+            <p>We will process your request within 48 hours. Please note that since we do not store your media or logs
+                on our servers, "deletion" primarily involves ensuring any temporary session data is cleared.</p>
         </section>
 
         <footer>
